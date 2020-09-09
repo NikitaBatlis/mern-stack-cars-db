@@ -1,0 +1,142 @@
+
+body {
+    background: linear-gradient(#002147, #00538C);
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.main {
+    box-sizing: border-box;
+    width: 90vw;
+    background: #343a40;
+    border-radius: 20px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 3em;
+}
+
+.titleContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    color: #FFFFFF;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+.titleContainerTitle {
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
+
+.titleContainerSubtitle {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #ffffff7c;
+}
+
+.formsContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 1px #FCA311;
+    padding-bottom: 4px;
+    color: #FFFFFF !important;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+input[type="text"] { 
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #343a40 inset;
+    -webkit-text-fill-color: #FFFFFF !important;
+}
+
+button {
+    background-color: #FCA311;
+    color: #FFFFFF;
+    border: 0;
+    padding: 8px 16px;
+    margin: 0 2px !important;
+    font-weight: 700!important;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #d4880e;
+    color: #FFFFFF;
+}
+
+button:active {
+    outline: none;
+}
+
+.carsContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.table {
+    min-width: 90%;
+    cursor: pointer;
+}
+
+.tableHead {
+    color: #ffffff7c !important;
+    font-size: 20px !important ;
+    font-weight: 100 !important;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.tableButtons {
+    text-align: right;
+}
+
+.modalContainer {
+    background-color: #343a40;
+    color: #FFFFFF;
+}
+
+.close {
+    color: #FFFFFF!important;
+}
+
+
+  
+
+
+
+
+  
