@@ -1,6 +1,6 @@
-#Full MERN Stack App
+# Full MERN Stack App
 
-
+A simple Car Database that connects to MongoDB with Express, React and Nodejs.
 
 ## Deployment
 
